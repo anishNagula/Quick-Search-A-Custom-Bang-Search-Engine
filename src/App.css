@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1b1b1b;
+  margin-bottom: 0;
+}
+
+input {
+  width: 600px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 15px;
+  border: #000 solid;
+  background-color: #fff;
+  color: #000;
+}
+
+input:focus {
+  outline: none;
+}
+
+.main {
+  margin-top: 200px;
+}
+
+p {
+  color: #000;
+  font-size: 16px;
+}
+
+.searchWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  z-index: 1000;
+  height: 20px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+ul {
+  list-style: none;
+}
+
+h3, ul {
+  color: #000;
+}
+
+li {
+  color: #000;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 5px 0;
+  max-height: 160px; /* Limit to 4 items (4 * ~40px height per item) */
+  overflow-y: auto; /* Enable scrolling if more than 4 items */
+}
+
+/* Hide scrollbar for Webkit-based browsers (Chrome, Safari) */
+.dropdown::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.dropdown li {
+  padding: 10px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  white-space: nowrap; /* Keep text in one line */
+}
+
+.dropdown li:hover {
+  background-color: #f5f5f5;
+}
+
+.dropdown li.selected {
+  /* border-bottom: 1px solid #000; */
+  border: 1px solid #000;
+}
+
+.linksWrapper {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.links li {
+  display: inline;
+  font-size: 14px;
+  color: #333;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
