@@ -95,7 +95,7 @@ function App() {
 
   return (
     <div className="main">
-      <h1>Quick Search</h1>
+      <h1>QuickBang</h1>
       <p>A simple search tool with custom bangs for quick redirections.</p>
 
       <div className="searchWrapper">
